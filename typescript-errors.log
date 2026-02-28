@@ -1,0 +1,27 @@
+lib/sources/youtube.ts(68,40): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,41): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,42): error TS1134: Variable declaration expected.
+lib/sources/youtube.ts(68,48): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,49): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,51): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,52): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,71): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,72): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,73): error TS1128: Declaration or statement expected.
+lib/sources/youtube.ts(68,77): error TS1109: Expression expected.
+lib/sources/youtube.ts(68,78): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,79): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,80): error TS1109: Expression expected.
+lib/sources/youtube.ts(68,83): error TS1005: ';' expected.
+lib/sources/youtube.ts(68,84): error TS1128: Declaration or statement expected.
+lib/sources/youtube.ts(68,88): error TS1109: Expression expected.
+lib/sources/youtube.ts(68,89): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,90): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,91): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,92): error TS1109: Expression expected.
+lib/sources/youtube.ts(68,93): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,94): error TS1127: Invalid character.
+lib/sources/youtube.ts(68,95): error TS1137: Expression or comma expected.
+lib/sources/youtube.ts(68,99): error TS1109: Expression expected.
+lib/sources/youtube.ts(68,101): error TS1003: Identifier expected.
+lib/sources/youtube.ts(68,102): error TS1161: Unterminated regular expression literal.

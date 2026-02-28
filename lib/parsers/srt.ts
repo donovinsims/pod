@@ -18,7 +18,7 @@ function parseSrtTimeToMs(time: string): number {
 
 export function parseSRT(content: string): TranscriptEntry[] {
     const entries: TranscriptEntry[] = [];
-    const lines = content.split(/\r?\n/);
+    const lines = content.split(/\\r?\\n/);
 
     let currentEntry: Partial<TranscriptEntry> | null = null;
     let textLines: string[] = [];

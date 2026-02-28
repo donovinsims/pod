@@ -1,0 +1,11 @@
+# Deployment Links
+
+**Vercel URL**: https://transcript-exporter-owjdccotd-donovins-projects-4d2b6fd8.vercel.app
+*(Note: Build failed due to local/Vercel Next.js `npm run build` timeout/lint errors. Check Vercel logs for full trace. Vercel Inspect URL: https://vercel.com/donovins-projects-4d2b6fd8/transcript-exporter/73NWhhJrBFcYSbe84ane9AF42FBo )*
+
+**Sher.sh URL**: N/A 
+*(Note: `sher link` failed locally because it requires a successful `npm run build` step which exited with code 1. You may need to debug the typescript typing/Next.js memory limit for this repo on this machine).*
+
+**Commit Hash**: 6753d15383ba2d2381129cdd0bf5b1789f4dba0f
+
+**Date/Time**: 2026-02-28T04:22:18-06:00

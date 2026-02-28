@@ -1,9 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
-import { BatchRequestSchema, BatchJobResult, Source } from "../../../lib/types";
-import { fetchYoutubeTranscript } from "../../../lib/sources/youtube";
-import { fetchAppleTranscript } from "../../../lib/sources/apple";
-import { fetchSpotifyTranscript } from "../../../lib/sources/spotify";
-import { TranscriptError, TranscriptErrorCode } from "../../../lib/errors";
+import { BatchRequestSchema, BatchJobResult, Source } from "@/lib/types";
+import { fetchYoutubeTranscript } from "@/lib/sources/youtube";
+import { fetchAppleTranscript } from "@/lib/sources/apple";
+import { fetchSpotifyTranscript } from "@/lib/sources/spotify";
+import { TranscriptError, TranscriptErrorCode } from "@/lib/errors";
 
 export async function POST(req: NextRequest) {
     try {
