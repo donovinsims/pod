@@ -52,7 +52,7 @@ export type BatchJob = z.infer<typeof BatchJobSchema>;
 
 export const SingleRequestSchema = z.object({
     url: z.string().url(),
-    format: FormatEnum.default("txt"),
+    format: FormatEnum,
     source: SourceEnum.optional(),
 });
 

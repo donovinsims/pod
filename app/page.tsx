@@ -10,7 +10,6 @@ import { Button } from "@/components/ui/button";
 import {
     Form,
     FormControl,
-    FormDescription,
     FormField,
     FormItem,
     FormLabel,
@@ -31,7 +30,7 @@ export default function Home() {
     const [errorDetails, setErrorDetails] = useState<{ title: string; desc: string } | null>(null);
     const { toast } = useToast();
 
-    const form = useForm<z.infer<typeof SingleRequestSchema>>({
+    const form = useForm<z.input<typeof SingleRequestSchema>>({
         resolver: zodResolver(SingleRequestSchema),
         defaultValues: {
             url: "",
@@ -40,7 +39,7 @@ export default function Home() {
         },
     });
 
-    async function onSubmit(values: z.infer<typeof SingleRequestSchema>) {
+    async function onSubmit(values: z.input<typeof SingleRequestSchema>) {
         setIsLoading(true);
         setErrorDetails(null);
 

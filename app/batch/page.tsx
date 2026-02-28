@@ -11,7 +11,6 @@ import { Button } from "@/components/ui/button";
 import {
     Form,
     FormControl,
-    FormDescription,
     FormField,
     FormItem,
     FormLabel,
@@ -23,7 +22,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Progress } from "@/components/ui/progress";
 import { useToast } from "@/hooks/use-toast";
 
-import { BatchRequestSchema, Format, BatchJobResult } from "@/lib/types";
+import { Format, BatchJobResult } from "@/lib/types";
 import { formatTranscript } from "@/lib/formatters";
 import { sanitizeFilename } from "@/lib/filename";
 

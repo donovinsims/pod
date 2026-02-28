@@ -1,7 +1,5 @@
 import { TranscriptDocument, TranscriptEntry, Format } from "../types";
 import { TranscriptError, TranscriptErrorCode } from "../errors";
-import { sanitizeFilename } from "../filename";
-
 // We'll use a mocked fetcher for the demonstration,
 // since youtube-transcript often breaks without an API key or rotating proxies.
 // In a real app, this would use youtube-transcript or similar library:

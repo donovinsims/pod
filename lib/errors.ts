@@ -24,10 +24,13 @@ export class TranscriptError extends Error {
     }
 
     toJSON() {
-        return {
+        const result: Record<string, unknown> = {
             code: this.code,
             message: this.message,
-            ...(this.details && { details: this.details }),
         };
+        if (this.details) {
+            result.details = this.details;
+        }
+        return result;
     }
 }
