@@ -1,11 +1,13 @@
 import type { Metadata } from 'next';
-import { Inter, Manrope } from 'next/font/google';
+import { Inter, Manrope, Montserrat, Roboto } from 'next/font/google';
 import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 const manrope = Manrope({ subsets: ['latin'], variable: '--font-manrope' });
+const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' });
+const roboto = Roboto({ subsets: ['latin'], weight: ['400', '700'], variable: '--font-roboto' });
 
 export const metadata: Metadata = {
     title: 'Transcript Exporter',
@@ -32,7 +34,7 @@ export default function RootLayout({
 }) {
     return (
         <html lang="en">
-            <body className={`${inter.variable} ${manrope.variable} min-h-screen flex flex-col font-sans antialiased text-foreground bg-background`}>
+            <body className={`${inter.variable} ${manrope.variable} ${montserrat.variable} ${roboto.variable} min-h-screen flex flex-col font-sans antialiased text-foreground bg-background`}>
                 {children}
                 <Toaster />
                 <Analytics />

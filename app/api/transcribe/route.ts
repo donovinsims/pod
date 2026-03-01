@@ -103,8 +103,9 @@ export async function GET(req: NextRequest) {
                 }
 
                 send('error', {
-                    message: displayMessage,
-                    isPaywall
+                    message: displayMessage || 'An unexpected error occurred during transcription.',
+                    isPaywall,
+                    details: errorMessage !== displayMessage ? errorMessage : undefined
                 });
             } finally {
                 try { controller.close(); } catch { }
